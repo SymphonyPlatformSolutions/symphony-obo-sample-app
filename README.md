@@ -7,6 +7,7 @@ A sample OBO app + bot that calls list_user_streams on behalf of a user.
 * IDE of your choice
 * Neccesary Permissions: https://developers.symphony.com/symphony-developer/docs/obo-overview#obo-app-permissions 
     * ACT_AS_USER and LIST_USER_STREAMS
+* Enable application for designated user + bot: https://developers.symphony.com/extension/docs/application-management
 
 ## Subscribe to 'extended-user-info' service in order to obtain user identity: 
 
