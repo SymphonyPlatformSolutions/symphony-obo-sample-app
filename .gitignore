@@ -1,0 +1,10 @@
+target
+*.log
+datafeed.id
+.idea
+*.iml
+certificates
+application-*.yaml
+*.gz
+rsa
+keystore

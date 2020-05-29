@@ -1,0 +1,24 @@
+{
+    "sessionAuthHost": "develop2.symphony.com",
+    "sessionAuthPort": 443,
+    "keyAuthHost": "develop2.symphony.com",
+    "keyAuthPort": 443,
+    "podHost": "develop2.symphony.com",
+    "podPort": 443,
+    "agentHost": "develop2.symphony.com",
+    "agentPort": 443,
+
+    "truststorePath": "certificates/all_symphony_certs_truststore",
+    "truststorePassword": "changeit",
+
+    "botUsername": "oboApp",
+    "botEmailAddress": "oboApp@symphony.com",
+    "botPrivateKeyPath": "rsa/",
+    "botPrivateKeyName": "rsa-private-oboApp.pem",
+
+    "appId": "oboApp",
+    "appPrivateKeyPath": "rsa/",
+    "appPrivateKeyName": "rsa-private-oboApp.pem"
+
+
+}
