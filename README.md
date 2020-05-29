@@ -92,3 +92,9 @@ public void onIMMessage(InboundMessage inboundMessage) {
         }
     }
 ```
+## Sample Log Output: Type '/streams' in (1-1 IM) (Calling User -> OBO Bot):
+
+```
+{77=UC0fwg27RpuqQWl4-pIYHn___pO8Vah0dA, 88=ZKzsV0Tdx9BFxMXb5RsMbH___pO8UjGhdA, 78=ueQF0BUJLt-k6lY7b2Inbn___pPQ6I9ndA, sales-bot-demo-room=4RBWbCSEzY14B9F2RE8FXH___pGaF5k4dA, option_jpy/nok_69.57399284877=sojMwI1YtKp8iDjNRE54sH___pGQLfmudA, option_gbp/nzd_153.3509694672=pj4O5jh6AmyG_uTAQLUsKX___pGUMftAdA, option_cny/try_166.4922677676=1Aq3nRj2cpIi2WkS7exk2X___pGP-bEwdA, Innovate 2019 Hackathon=jPC-UJQZ7xhTLC_UjpOyZ3___pMn1NxFdA, option_sek/ils_88.94111329455=J5_NtZK_GMhJKIY6T3ZWKX___pGP-d9FdA, swap_brl/jpy_151.27258008029=y58xMDgCU7ZcF0rjh-zNMn___pGP-GwNdA, hack-test-room=0FujVaUBhAYYXRXqESu17X___pJEqN1kdA, Trade: $AMZN Amazon.com, Inc.=UIjPEgsgSV0r2WpB3WdHgX___pQiiLGOdA, swap_cop/dkk_40.90657112608=6z1FcMRb7gXOX-UKevicUX___pGP-ZX2dA, swap_usd/eur_14.08856955263=rPkUcgwhK5Ui1gSTIKdo_H___pGP-Z2OdA, atmentionroom=sOKpwRk_5_N838P10ATuFX___pNk9zJndA, Updating room=szER4pjkPrnydrPs-VO-BH___pJn7BPddA, option_nzd/sgd_64.36759183204=BSlrHPztPzvLLMar1c_qe3___pGP-adLdA, option_jpy/nok_72.40775271464=35mMOHtyhm3vukeVyfs_43___pGT9M0kdA}
+```
+
