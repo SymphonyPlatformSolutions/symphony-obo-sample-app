@@ -1,6 +1,12 @@
 # symphony-obo-sample-app
 A sample OBO app + bot that calls list_user_streams on behalf of a user.
 
+## Prerequisites:
+*JDK 1.8 + Maven3
+*Bot user account + RSA Public/Private Key Pair
+*IDE of your choice
+*Neccesary Permissions: https://developers.symphony.com/symphony-developer/docs/obo-overview#obo-app-permissions 
+
 ## Subscribe to 'extended-user-info' service in order to obtain user identity: 
 
 (resources/js/controller.js):
@@ -36,7 +42,7 @@ Promise.all([ SYMPHONY.remote.hello(), appTokenPromise ]).then(function(data) {
   ```
   ## Add a corresponding Request Mapping to Perform App Authentication: 
   
-  (web/WebController)
+  (web/WebController.java)
   ```
   @RestController
   public class WebController {
@@ -60,7 +66,7 @@ Promise.all([ SYMPHONY.remote.hello(), appTokenPromise ]).then(function(data) {
 
 ## Add an IMListener to return Map of of user streams {"stream_name": "stream_id"}: 
 
-(bot/IMListenerImpl)
+(bot/IMListenerImpl.java)
 
 ```
 public void onIMMessage(InboundMessage inboundMessage) {
