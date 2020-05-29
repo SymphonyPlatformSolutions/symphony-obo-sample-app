@@ -2,10 +2,11 @@
 A sample OBO app + bot that calls list_user_streams on behalf of a user.
 
 ## Prerequisites:
-*JDK 1.8 + Maven3
-*Bot user account + RSA Public/Private Key Pair
-*IDE of your choice
-*Neccesary Permissions: https://developers.symphony.com/symphony-developer/docs/obo-overview#obo-app-permissions 
+* JDK 1.8 + Maven3
+* Bot user account + RSA Public/Private Key Pair
+* IDE of your choice
+* Neccesary Permissions: https://developers.symphony.com/symphony-developer/docs/obo-overview#obo-app-permissions 
+    * ACT_AS_USER and LIST_USER_STREAMS
 
 ## Subscribe to 'extended-user-info' service in order to obtain user identity: 
 
