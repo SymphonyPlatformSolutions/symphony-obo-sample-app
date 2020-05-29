@@ -1,7 +1,9 @@
 # symphony-obo-sample-app
 A sample OBO app + bot that calls list_user_streams on behalf of a user.
 
-## Subscribe to 'extended-user-info' service in order to obtain user identity: (resources/js/controller.js)
+## Subscribe to 'extended-user-info' service in order to obtain user identity: 
+
+(resources/js/controller.js):
 
 ```
 var oboApp = 'oboApp:controller';
@@ -32,7 +34,9 @@ Promise.all([ SYMPHONY.remote.hello(), appTokenPromise ]).then(function(data) {
     }
   });
   ```
-  ## Add a corresponding Request Mapping to Perform App Authentication: (web/WebController)
+  ## Add a corresponding Request Mapping to Perform App Authentication: 
+  
+  (web/WebController)
   ```
   @RestController
   public class WebController {
@@ -54,7 +58,9 @@ Promise.all([ SYMPHONY.remote.hello(), appTokenPromise ]).then(function(data) {
 }
 ```
 
-## Add an IMListener to return Map of of user streams {"stream_name": "stream_id"}: (bot/IMListenerImpl)
+## Add an IMListener to return Map of of user streams {"stream_name": "stream_id"}: 
+
+(bot/IMListenerImpl)
 
 ```
 public void onIMMessage(InboundMessage inboundMessage) {
