@@ -30,7 +30,7 @@ public class IMListenerImpl implements IMListener {
 
         if (inboundMessage.getMessageText().equalsIgnoreCase("/streams")) {
             SymOBOUserRSAAuth userAuth = OboBot.getOboAuth().getUserAuth(inboundMessage.getUser().getUserId());
-            SymOBOClient oboClient = SymOBOClient.initOBOClient(OboBot.getConfig(), userAuth);
+            SymOBOClient oboClient = new SymOBOClient(OboBot.getConfig(), userAuth);
 
             List<StreamListItem> streamsMap = oboClient.getStreamsClient().getUserStreams(Arrays.asList("IM", "ROOM"), false);
             for (StreamListItem item : streamsMap){
